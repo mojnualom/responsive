@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar design start here */
+.logo{
+    color: white;
+    font-size: 30px;
+}
+
+.logo span {
+color: yellowgreen;
+}
+nav{
+    display: flex;
+    background-color: rgb(127, 134, 127);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+/* padding: 10px 10px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+background-color: rgb(26, 192, 115);
+}
+
+.active{
+    background-color: rgb(161, 189, 104);
+}
+
+#click{
+    display: none;
+}
+.menu-btn{
+    color: white;
+    font-size: 22px;
+    display: none;
+}
+
+/* header section start here */
+header {
+    background-image: url('/image/header.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* maain section start here */
+.service-main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(115, 115, 177);
+}
+
+.service-parent{
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.service-parent > h2{
+    color: white;
+    font-size: 30px;
+}
+.service-main-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.service-each{
+    background-color: white;
+    text-align: center;
+}
+
+.service-each > i{
+    font-size: 30px;
+    padding: 20px 10px;
+}
+.service-each > p {
+    padding: 20px 10px;
+}
+/* smart area section start here */
+
+.smart-main {
+    background-color: rgb(147, 118, 173);
+    padding-bottom: 50px;
+}
+.smart-main > h2 {
+text-align: center;
+padding: 50px 0px;
+color: yellow;
+font-size: 30px;
+}
+
+.smart-text-parent h3 {
+    color: white;
+    padding: 20px 0px;
+}
+.smart-text-parent h2{
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.smart-text-parent p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.smart-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    background-color: #e29595;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+/* 3rd section code start here */
+
+.third-section {
+    background-color: rgb(59, 59, 105);
+    padding-bottom: 50px;
+}
+.third-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 100px;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+
+.third-first-part{
+
+    color: white;
+
+}
+
+.third-first-part h2 {
+    padding: 10px 0px;
+}
+.third-first-part ul{
+margin-top: 20px;
+}
+
+.third-first-part a{
+text-decoration: none;
+color: black;
+padding: 10px 10px;
+border-radius: 20px;
+background-color: #fff;
+display: inline-block;
+margin-top: 20px;
+}
+
+.third-second-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.third-each-section{
+    background-color: white;
+    padding: 20px 20px;
+    border: 3px solid green;
+    text-align: center;
+}
+.third-each-section h4{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+
+/* advice area code start here */
+
+.advice-section{
+    background-color: rgb(150, 150, 194);
+    padding: 100px 0px;
+    padding-bottom: 200px;
+}
+.advice-section-parent {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.advice-first img {
+width: 400px;
+}
+.advice-first{
+color: white;
+}
+
+.advice-first h2{
+    padding: 20px 0px;
+}
+.advice-first p{
+    padding: 10px 0px;
+}
+.advice-first i{
+    font-size: 30px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.advice-second-part{
+    color: white;
+}
+
+.advice-second-part h3{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.advice-second-part p{
+    margin-bottom: 30px;
+}
+
+.advice-second-part a {
+    padding: 10px 10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: rgba(66, 59, 59, 0.507);
+    border-radius: 20px;
+}
+/* contact form section start here */
+
+#contact-section{
+    background-image: linear-gradient(rgb(86, 97, 121), rgb(146, 120, 120));
+    padding: 100px 0px;
+}
+
+form{
+    background-color: aquamarine;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 50px 60px;
+    border: 3px solid green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 50px 0px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 3px solid navy;
+    font-size: 18px;
+    color: #e29595;
+}
+
+.form-input::placeholder{
+    color: blue;
+}
+
+/* navbar responsive code start here */
+
+@media only screen and (max-width: 940px){
+    nav ul{
+        position: fixed;
+        top: 75px;
+        height: 100vh;
+        background-color: #918585;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5s ease;
+
+    }
+    nav ul li{
+        margin-top: 50px;
+
+    }
+    nav ul li a.active{
+        background: none;
+        color:red;
+    }
+    .menu-btn{
+        display: block;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .menu-btn i::before{
+        content: "\f00d";
+    }
+    header{
+        background-position: center;
+        height: 90vh;
+    }
+
+    /* service main section code start here */
+
+    .service-main-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        padding-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .service-each{
+
+    }
+
+    /* smart section responsive code start here */
+    .smart-main {
+        display: block;
+
+    }
+    .smart-parent{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .smart-img img{
+        width: 100%;
+    }
+
+    /* third section responsive code start here */
+    .third-parent{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .third-second-part {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+        /* advice section code start here */
+
+    .advice-section-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .advice-section-parent{
+        margin-bottom: -150px;
+    }
+    .advice-first img{
+        width: 100%;
+    }
+    /* contact responsive code start here */
+    form{
+        max-width: 90%;
+    }
+
+}
+
